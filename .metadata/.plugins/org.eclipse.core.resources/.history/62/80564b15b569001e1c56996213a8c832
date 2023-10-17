@@ -1,0 +1,26 @@
+/*
+ * stm32f406vgt6.h
+ *
+ *  Created on: Oct 12, 2023
+ *      Author: OS
+ */
+
+
+/*
+  Part 20.
+  + Writing base address C macros for MCU's embedded memories : Part 2
+ */
+#ifndef INC_STM32F407VGT6_H_
+#define INC_STM32F407VGT6_H_
+
+
+#define FLASH_BASEADDR   			0x08000000 //
+#define SRAM1_BASEADDR   			0x20000000 // 112KB
+#define SRAM2_BASEADDR				0x2001C000
+#define ROM_BASEADDR				0x1FFF0000
+#define SRAM 						SRAM1_BASEADDR
+
+
+
+
+#endif /* INC_STM32F407VGT6_H_ */

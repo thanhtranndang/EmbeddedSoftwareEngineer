@@ -1,0 +1,13 @@
+/*
+ * stm32f406vgt6.h
+ *
+ *  Created on: Oct 12, 2023
+ *      Author: OS
+ */
+
+#ifndef INC_STM32F406VGT6_H_
+#define INC_STM32F406VGT6_H_
+
+
+
+#endif /* INC_STM32F406VGT6_H_ */
